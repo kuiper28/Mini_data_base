@@ -1,7 +1,5 @@
- Nume: Dinica Ion-Robert
- Grupa:322CB
 
- Pentru implemntarea acestei teme am folosit clasele: "Tema2","creeazaDB",
+ Pentru implemntarea acestui program am folosit clasele: "Tema2","creeazaDB",
  "creeazaEntitate", "creeazaInstanta"si "Nod".
 
  Astfel, o baza de date este reprezentata ca un ArrayList de noduri.
