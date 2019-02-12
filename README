@@ -1,0 +1,32 @@
+ Nume: Dinica Ion-Robert
+ Grupa:322CB
+
+ Pentru implemntarea acestei teme am folosit clasele: "Tema2","creeazaDB",
+ "creeazaEntitate", "creeazaInstanta"si "Nod".
+
+ Astfel, o baza de date este reprezentata ca un ArrayList de noduri.
+ In clasa "creeazaDB" este initializat acest ArrayList de noduri si
+ sunt implementate metodele corespunzatoare operatiilor care sunt
+ efectuate asupra bazei de date.
+
+ Un nod reprezinta un ArrayList de instante. In clasa "Nod" este initializat
+ un nod si sunt implmentate metodele prin care sunt prelucrate instantele
+ dintr-un nod.Astfel, avem metode de adugare a unei instante in nod, de
+ stergere a unei anumite instante din nod, obtinere a unei anumite instante
+ din nod si actualizare a atributlor unei instante.De asemenea, mai este
+ implementata o metoda de afisare a instantelor dintr-un nod.
+
+ In clasa "creeazaEntitate" este initializata o noua entitate, atributele
+ unei entitati si tipurile corespunzatoare atributelor fiind retinute 
+ intr-un LinkedHashMap de forma: (Key:Atribut, valKey:tipAtribut).
+
+ In clasa "creeazaInstanta"(care mosteneste clasa "creeazaEntitate") este 
+ initializata o noua instanta, atributele unei instante si valorile 
+ corespunzatoare atributelor fiind retinute intr-un LinkedHashMap de
+ forma: (Key:Atribut, valKey:valAtribut).De altfel, in aceasta clasa
+ mai este implemntata o metoda de afisare a atributelor si valorilor
+ corespunzatoare unei instante.
+
+ In clasa principala "Tema2" este realizata parsarea fisierului si construirea
+ unei noi baze de date, iar apoi apelarea operatiilor care sunt efectuate
+ asupra acestei baze de date. 
